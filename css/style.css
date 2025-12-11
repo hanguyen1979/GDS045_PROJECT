@@ -1,0 +1,281 @@
+body {
+  max-width: 1320px;
+  margin: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+  background-color: black;
+ 
+}
+
+.header_text {
+  text-align: center;
+  padding: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 4rem;
+  letter-spacing: 2px;
+  color: #ff7b00;
+}
+.hero_img{
+    height: 300px;
+    padding: 0;
+    box-sizing: border-box;
+    background: black url(../img/halloween-9926400_1000x300.png) no-repeat center top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav{
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  background-color: #ff7b00;
+  max-width: 1000px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.6rem;
+  color: black;
+  font-weight:bold;
+  height: 50px;
+  padding: 0;
+  margin: 0 auto;
+}
+.a_nav:link{
+    color: #000000;
+    text-decoration: none;
+    padding-left: 1rem;
+}
+
+.a_nav:visited{
+    color:rgb(00, 00, 00);
+    text-decoration: none;
+}
+
+.a_nav:hover{
+    color: purple;
+    text-decoration: underline;
+}
+
+.a_nav:active{
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.content {
+  flex: 2;
+  background-color: rgba(20, 20, 20, 0.8);
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 123, 0, 0.2);
+}
+
+.sidebar {
+  flex: 1;
+  background-color: rgba(20, 20, 20, 0.8);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 123, 0, 0.2);
+}
+
+.sidebar h3 {
+  color: #ff7b00;
+  margin-bottom: 1rem;
+  font-family: 'Playfair Display', serif;
+  margin-right: 1rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 1rem;
+  
+}
+
+.sidebar ul li {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.sidebar a {
+  color: #f5f5f5;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.sidebar a:hover {
+  color: #ff7b00;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stacks the items vertically */
+    }
+
+    .content, .sidebar {
+        width: 93%; /* Ensures they take up the full width */
+    }
+    
+}
+
+.content h3 {
+  color: #ff8a1d;
+  margin-top: 3rem;
+}
+
+.content ul{
+  margin-top: 1rem;
+}
+
+.content ul li{
+  margin-top: 1rem;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  color: #ffa347;
+  margin-bottom: 1rem;
+}
+
+.pumkin_img, .halloween_img, .pumkin_patch_img, .girl_img {
+    float: right;
+    margin-left: 1em;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.ai_halloween_img{
+    float: left;
+    margin-left: 1em;
+    max-width: 100%;
+    height: auto;
+}
+
+.pumkin_img{
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1.1rem;
+  color: #f5f5f5;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 3rem;
+  padding: 0.8rem 2rem;
+  background: #ff7b00;
+  color: black;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #ff9b33;
+  box-shadow: 0 0 15px #ff7b00;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  background-color: black;
+  font-size: 0.9rem;
+  color: #aaa;
+  overflow: hidden;
+}
+
+footer p{
+  text-align: center;
+  padding: 1rem;
+}
+.article-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1000px;
+}
+
+.article-content {
+  background-color: rgba(20, 20, 20, 0.8);
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 123, 0, 0.2);
+}
+
+.article-content h2 {
+  color: #ffa347;
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+}
+
+.article-content h3 {
+  color: #ff8a1d;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+#grocers{
+  margin-top: 0;
+}
+
+.article-content ul li{
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.author {
+  font-size: 0.9rem;
+  color: #bbb;
+  margin-bottom: 1.5rem;
+  
+}
+#col1, #col2{
+  box-sizing: border-box;
+}
+@media screen and (min-width:768px){
+  #article_columns{
+    display: flex;
+    justify-content: space-between;
+  }
+  #col1{
+    flex: 0 1 48%;
+  }
+  #col2{
+    flex: 0 1 48%;
+  }
+}
+
+
+.back-btn {
+  display: inline-block;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  background: transparent;
+  border: 2px solid #ff7b00;
+  color: #ff7b00;
+}
+
+.back-btn:hover {
+  background: #ff7b00;
+  color: #000;
+}
